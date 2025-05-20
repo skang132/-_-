@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-20 16:03:53 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\RESCO-main\resco_benchmark\environments/ingolstadt21/ingolstadt21.net.xml"/>
+        <route-files value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\RESCO-main\resco_benchmark\environments/ingolstadt21/ingolstadt21.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-ingolstadt21-21-mplight-pressure\tripinfo_28.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <vehroute-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-ingolstadt21-21-mplight-pressure\route_28.xml"/>
+        <vehroute-output.sorted value="True"/>
+        <vehroute-output.write-unfinished value="True"/>
+        <collision-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-ingolstadt21-21-mplight-pressure\coll_28.xml"/>
+        <statistic-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-ingolstadt21-21-mplight-pressure\stats_28.xml"/>
+    </output>
+
+    <time>
+        <begin value="57600"/>
+        <end value="61200"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="58956"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="58119.00" type="collision" lane="201963537#1_2" pos="139.50" collider="carIn37120:1" victim="h8445c2:3" colliderType="default_016" victimType="default_016" colliderSpeed="6.88" victimSpeed="0.00"/>
+</collisions>

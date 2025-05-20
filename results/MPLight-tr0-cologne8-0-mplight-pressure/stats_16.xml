@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-05-20 17:12:36 by Eclipse SUMO sumo Version 1.20.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\RESCO-main\resco_benchmark\environments/cologne8/cologne8.net.xml"/>
+        <route-files value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\RESCO-main\resco_benchmark\environments/cologne8/cologne8.rou.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-cologne8-0-mplight-pressure\tripinfo_16.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+        <vehroute-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-cologne8-0-mplight-pressure\route_16.xml"/>
+        <vehroute-output.sorted value="True"/>
+        <vehroute-output.write-unfinished value="True"/>
+        <collision-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-cologne8-0-mplight-pressure\coll_16.xml"/>
+        <statistic-output value="C:\Users\skang\Desktop\최석환\강의\무인항공딥러닝개론\results\MPLight-tr0-cologne8-0-mplight-pressure\stats_16.xml"/>
+    </output>
+
+    <time>
+        <begin value="25200"/>
+        <end value="28800"/>
+    </time>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-warnings value="True"/>
+        <no-step-log value="True"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="56794"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <performance clockBegin="-1868307.63" clockEnd="-1868283.56" clockDuration="24.07" traciDuration="22.66" realTimeFactor="149.56" vehicleUpdatesPerSecond="11258.25" personUpdatesPerSecond="0.00" begin="25200.00" end="28800.00" duration="3600.00"/>
+    <vehicles loaded="2046" inserted="2046" running="57" waiting="0"/>
+    <teleports total="0" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0" emergencyBraking="1"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <personTeleports total="0" abortWait="0" wrongDest="0"/>
+    <vehicleTripStatistics count="2046" routeLength="741.85" speed="6.45" duration="132.45" waitingTime="34.69" timeLoss="67.03" departDelay="6.13" departDelayWaiting="0.00" totalTravelTime="270986.00" totalDepartDelay="12545.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>
